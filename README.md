@@ -6,6 +6,72 @@ This repository contains my academic research, robotics projects, simulations, a
 
 ---
 
+## 📁 Projects
+
+### 🤖 Computer Vision
+
+#### 01 — Real-Time Fire Detection
+- YOLO-based real-time fire detection system
+- Integrated alert mechanism for safety-critical environments
+
+#### 02 — Real-Time Traffic Flow Analysis
+- Vehicle detection and traffic density estimation using deep learning
+- Frame-by-frame flow analysis for congestion monitoring
+
+#### 03 — Motion Analysis
+- Optical flow and motion tracking techniques
+- Used for object movement interpretation in video streams
+
+#### 04 — Interactive Image Segmentation
+- User-guided segmentation for precise object extraction
+- Combined classical CV with interactive refinement
+
+#### 05 — Vision-Based Object Measurement
+- Estimated real-world object dimensions using camera calibration
+- Applied geometric vision techniques
+
+#### 06 — Vision-Based Gesture Control
+- Hand gesture recognition for control systems
+- Used for human–machine interaction applications
+
+#### 07 — Face Recognition with Privacy Preservation
+- Face recognition system with privacy-focused design
+- Feature-based identity recognition approach
+
+---
+
+### 🤖 Robotics Portfolio
+
+#### MATLAB-Based Robotics
+
+- **01 Kinematics** — Forward and inverse kinematics modeling  
+- **02 Trajectory Planning** — Smooth path generation for robotic arms  
+- **03 Dynamics and Control** — System modeling and controller design  
+- **04 SCARA Robot** — Simulation and control of SCARA manipulator  
+- **05 Mobile Robot Navigation** — Path tracking and control strategies  
+- **06 PRM Path Planning** — Probabilistic roadmap-based navigation  
+
+---
+
+#### Webots Simulation Projects
+
+##### 01 — Odometry Analysis
+- Studied drift behavior in differential drive robots (e-puck)
+- Compared motion patterns (open-loop vs closed-loop control)
+- Analyzed trajectory error and localization drift
+
+##### 02 — Waypoint Navigation
+- FSM-based waypoint navigation using odometry
+- Implemented autonomous navigation without GPS
+- Evaluated accuracy under different movement strategies
+
+##### 03 — Sensor Noise Filtering for Obstacle Avoidance
+- Applied filtering techniques (moving average, smoothing)
+- Improved IR sensor stability in reactive navigation
+- Enhanced obstacle avoidance robustness
+
+---
+
 ## 📄 Research Work
 
 ### AI-Based Inspection System with HMI Integration (FYP Paper)
@@ -19,40 +85,6 @@ This repository contains my academic research, robotics projects, simulations, a
 - Designed and modeled an autonomous mobile robotic system for inspection tasks in hazardous environments
 - Integrated perception, control, and navigation modules  
 📎 Paper: [Link to submitted paper]
-
----
-
-## 🤖 Robotics & AI Projects
-
-### Mobile Robot Path Planning (PRM - MATLAB)
-- Implemented Probabilistic Roadmap (PRM) for global path planning
-- Designed Pure Pursuit controller for trajectory tracking
-- Simulated navigation in custom occupancy grid environments
-
----
-
-### Odometry-Based Navigation (Webots)
-- Implemented waypoint navigation using FSM and odometry-only estimation
-- Evaluated motion patterns (square, circular, open-loop)
-- Achieved low loop-closure error in closed-loop control experiments
-
----
-
-### Sensor Noise Filtering for Obstacle Avoidance
-- Applied moving average and exponential filtering techniques on noisy IR sensors
-- Improved stability of reactive obstacle avoidance in dynamic environments
-
----
-
-### Comparative Odometry Analysis
-- Studied drift behavior under different motion strategies using e-puck robot simulation
-- Quantified trajectory error under open-loop and sensor-based navigation
-
----
-
-### AI Fire Detection System
-- Developed YOLO-based real-time fire detection model
-- Integrated detection system with alert response mechanism for safety-critical applications
 
 ---
 
@@ -87,8 +119,9 @@ This repository contains my academic research, robotics projects, simulations, a
 
 ## 🔗 Links
 
-- Full Portfolio & Projects: [GitHub Repository Link]
-- LinkedIn: [Your LinkedIn Link]
+- 🔗 GitHub Portfolio: https://github.com/ShahmirQureshi/Portfolio
+- 🔗 LinkedIn: https://www.linkedin.com/in/shahmir-qureshi
+- 📧 Email: shahmirqureshi94@gmail.com
 
 ---
 
