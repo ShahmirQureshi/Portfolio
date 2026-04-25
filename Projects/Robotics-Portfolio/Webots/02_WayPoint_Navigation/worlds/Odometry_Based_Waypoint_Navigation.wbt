@@ -1,0 +1,32 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  position -0.24036201387798803 0.10091098790255115 1.8111617925967587
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.0463377 0.0708815 0
+  floorTileSize 0.25 0.25
+  wallHeight 0.05
+}
+E-puck {
+  translation -2.5820641667708736e-11 1.3315711427764846e-16 -3.19809978920043e-05
+  rotation 0.9830907035131627 0.18311927442505713 1.8768984724473784e-07 2.7955987641697447e-09
+  controller "Odometry_Based_Waypoint_Navigation"
+}
+PointLight {
+  attenuation 0 0 1
+  location 0.4 -0.2 0.3
+}

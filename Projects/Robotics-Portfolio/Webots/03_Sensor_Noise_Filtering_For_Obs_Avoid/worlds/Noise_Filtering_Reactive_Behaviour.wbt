@@ -1,0 +1,58 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  position 1.0835454808865968e-16 1.0835454808865968e-16 1.9519420095839453
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.0463377 0.0708815 0
+  floorTileSize 0.25 0.25
+  wallHeight 0.05
+}
+E-puck {
+  hidden position_0_0 1712.2150524456822
+  hidden position_0_1 2286.3879702890185
+  hidden rotation_1 0 1 0 3.1886488928346823
+  hidden rotation_2 0 -0.9999999999999999 0 0.6914815243509375
+  translation 0.015307742165151976 0.5081729602104058 -3.198061328038397e-05
+  rotation 0.00011338400783819778 3.096933383348508e-05 0.9999999930924836 -2.6083245381932363
+  controller "Noise_Filtering_Reactive_Behaviour"
+}
+Solid {
+  translation 0.08492436371651295 0.06040162143138169 0.09843040000000003
+  rotation 2.1177592327654455e-14 3.664806447616562e-14 -1 0.0012359599515251345
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF Box Box {
+        size 0.2 0.2 0.2
+      }
+    }
+  ]
+  boundingObject USE Box
+  physics Physics {
+  }
+  linearVelocity 2.3034755491388325e-17 8.327567837745988e-18 -3.1263880373443075e-16
+  angularVelocity 9.880481605298008e-29 2.664535259195206e-16 3.567985326195802e-17
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 0.3
+  location 0.4 -0.2 0.3
+}

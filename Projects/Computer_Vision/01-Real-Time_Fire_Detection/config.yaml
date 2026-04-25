@@ -1,0 +1,11 @@
+# Create a YAML file describing your dataset
+path: /content/drive/MyDrive/Colab Notebooks/30DayCVChallenge/Day21/data
+
+train: /content/drive/MyDrive/Colab Notebooks/30DayCVChallenge/Day21/data/images/train
+val: /content/drive/MyDrive/Colab Notebooks/30DayCVChallenge/Day21/data/images/val
+
+# Number of classes
+nc: 1  # Set to the correct number of classes
+
+# Class names
+names: ['Fire']  # Replace with your class names
